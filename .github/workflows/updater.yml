@@ -1,34 +1,52 @@
 name: Update Blocklist
+
 on:
   schedule:
-    - cron: '0 0 */3 * *' # Runs every 3 days at midnight
-  workflow_dispatch:      # Allows manual trigger
+    - cron: '0 0 */7 * *'   # Runs every 7 days at midnight (UTC)
+  workflow_dispatch:        # Allows manual trigger from the UI
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v3
-        with: 
-          fetch-depth: 0   # so we can pull / rebase
-      - uses: actions/setup-python@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0      # needed for pull/rebase
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - name: Install Libs
-        run: pip install google-play-scraper requests
-      - name: Run Script
-        run: python scraper.py
-      - name: Commit
+
+      - name: Install libs
         run: |
-          git config --global user.name 'Bot'
-          git config --global user.email 'bot@noreply.github.com'
-          # Check if file changed
-          if [[ -n $(git status -s) ]]; then
+          pip install google-play-scraper requests
+
+      - name: Run scraper
+        run: |
+          python scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Bot"
+          git config --global user.email "bot@noreply.github.com"
+
+          # Ensure we have the latest main
+          git pull --rebase origin main || true
+
+          # Stage blocklist if updated
+          if [ -f "blocklist.txt" ]; then
             git add blocklist.txt
-            git commit -m "Update list"
-            git push
-          else
-            echo "No changes to commit"
+          fi
+
+          # Commit only if there are actual changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else:
+            git commit -m "Auto-update blocklist"
+            git push origin HEAD:main
           fi
