@@ -27,7 +27,8 @@ ALWAYS_BLOCK = [
     "co.yellw.yellowapp", "com.chatous.chatous", "camsurf.com",
     "com.chatrandom", "com.unearby.sayhi", "com.skout.android",
     "com.myyearbook.m", "com.parau.videochat", "com.hay.android",
-    "com.mico.world"
+    "com.mico.world", "com.comhub.onlinechat.android.video", "com.live.streamer.online.app.video","land.lifeoasis.maum",
+    "com.live.soulchill"
 ]
 
 SAFE_WHITELIST = {
