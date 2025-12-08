@@ -1,0 +1,32 @@
+name: Update Blocklist
+on:
+  schedule:
+    - cron: '0 0 */3 * *' # Runs every 3 days at midnight
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Libs
+        run: pip install google-play-scraper requests
+      - name: Run Script
+        run: python scraper.py
+      - name: Commit
+        run: |
+          git config --global user.name 'Bot'
+          git config --global user.email 'bot@noreply.github.com'
+          # Check if file changed
+          if [[ -n $(git status -s) ]]; then
+            git add blocklist.txt
+            git commit -m "Update list"
+            git push
+          else
+            echo "No changes to commit"
+          fi
