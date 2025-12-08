@@ -277,15 +277,13 @@ def main():
     before_whitelist = len(final_blocklist)
     final_blocklist.difference_update(SAFE_WHITELIST)
     
-    if final_blocklist != previous_blocklist:
-        delta = len(final_blocklist) - len(previous_blocklist)
-        print(f"[+] Saving blocklist.txt with {len(final_blocklist)} apps (net change: {delta:+d}).")
-        with open("blocklist.txt", "w") as f:
-            f.write("# Auto-generated Blocklist\n")
-            for pkg in sorted(final_blocklist):
-                f.write(f"{pkg}\n")
-    else:
-        print("\n[+] No changes to blocklist.")
+    # MODIFIED: Always write the file to ensure it's sorted and fresh.
+    # This solves the issue where identical but unsorted content wouldn't update.
+    print(f"[+] Writing blocklist.txt with {len(final_blocklist)} apps.")
+    with open("blocklist.txt", "w") as f:
+        f.write("# Auto-generated Blocklist\n")
+        for pkg in sorted(final_blocklist):
+            f.write(f"{pkg}\n")
 
 if __name__ == "__main__":
     main()
