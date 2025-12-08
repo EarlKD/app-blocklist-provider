@@ -3,44 +3,29 @@ import re
 import requests
 import time
 import random
-from google_play_scraper import search, app as gp_app, similar
+from google_play_scraper import search, app as gp_app
 
 # ================== CONFIGURATION ==================
 
 # Play Store regions to scan
 TARGET_COUNTRIES = ["us", "in"]
 
-# High-risk queries: we scan deeper (n_hits = 100)
+# High-risk queries
 HIGH_RISK_KEYWORDS = [
-    "random video chat",
-    "stranger video chat",
-    "live girls chat",
-    "adult video chat",
-    "18+ chat",
-    "roulette video chat",
-    "desi video chat",
-    "bhabhi video chat",
-    "dost",  # Added
+    "random video chat", "stranger video chat", "live girls chat",
+    "adult video chat", "18+ chat", "roulette video chat",
+    "desi video chat", "bhabhi video chat", "dost",
 ]
 
-# Normal-risk queries: decent depth (n_hits = 60)
+# Normal-risk queries
 NORMAL_KEYWORDS = [
-    "random chat app",
-    "stranger chat",
-    "live video chat",
-    "live video call",
-    "dating video chat",
-    "meet new people video chat",
-    "cam chat",
-    "cam live chat",
-    "chat",         # Added
-    "voice chat",   # Added
-    "voice call",   # Added
+    "random chat app", "stranger chat", "live video chat",
+    "live video call", "dating video chat", "meet new people video chat",
+    "cam chat", "cam live chat", "chat", "voice chat", "voice call",
 ]
 
 # Hard-coded apps that should ALWAYS be blocked
 ALWAYS_BLOCK = [
-    # Original List
     "com.sgiggle.production", "com.azarlive.android", "com.hkfuliao.chamet",
     "com.videochat.livu", "sg.bigo.live", "com.mumu.videochat",
     "com.mumu.videochat.india", "com.live.streamer.online.app.video",
@@ -51,8 +36,6 @@ ALWAYS_BLOCK = [
     "com.myyearbook.m", "com.parau.videochat", "com.hay.android",
     "com.mico.world", "com.comhub.onlinechat.android.video",
     "land.lifeoasis.maum", "com.live.soulchill",
-    
-    # New Additions
     "cc.hitto.otzt.lite", "cn.neoclub.uki", "cn.upuppro.app", "com.ahchat.app",
     "com.baatlive.sgvie", "com.bestsiv.xmiga", "com.bombang.terra", "com.callingme.chat",
     "com.chaloji.link", "com.cherru.video.live.chat", "com.comhub.onlinechat.android.video",
@@ -69,7 +52,7 @@ ALWAYS_BLOCK = [
     "sg.bigo.hellotalk", "xyz.chefdice.boldhub", "xyz.copiee.android"
 ]
 
-# Apps that should NEVER be blocked (even if keywords look risky)
+# Apps that should NEVER be blocked
 SAFE_WHITELIST = {
     "com.whatsapp", "com.whatsapp.w4b", "org.telegram.messenger",
     "com.facebook.orca", "com.snapchat.android", "com.instagram.android",
@@ -132,6 +115,7 @@ def load_existing_blocklist(path: str = "blocklist.txt") -> set:
     return existing
 
 def fetch_app_details_robust(pkg_id: str):
+    # Try fetching details. If it fails in one region, try others.
     for country in TARGET_COUNTRIES:
         try:
             return gp_app(pkg_id, lang="en", country=country)
@@ -157,13 +141,13 @@ def fetch_appbrain_candidates() -> set:
 def spider_crawl(seed_pkg: str, current_blocklist: set) -> set:
     """
     The 'Trash Spider' strategy:
-    1. Find 'Similar Apps' for the seed.
+    1. Find 'Similar Apps' for the seed (via details['similarApps']).
     2. Find apps by the same Developer.
     3. Check if they look risky.
     """
     new_finds = set()
     try:
-        # Fetch details to get developer ID
+        # Fetch details (this returns a dict which often includes 'similarApps')
         details = fetch_app_details_robust(seed_pkg)
         if not details: return new_finds
 
@@ -172,7 +156,8 @@ def spider_crawl(seed_pkg: str, current_blocklist: set) -> set:
         # 1. Developer Cluster Search
         if developer_id:
             try:
-                # Search using pub:DeveloperName
+                # Search using pub:DeveloperName or just developerId
+                # Note: google-play-scraper search handles "pub:" automatically or implies it
                 dev_results = search(f"pub:{developer_id}", lang="en", country="us")
                 for app in dev_results:
                     pkg = app.get("appId")
@@ -183,17 +168,34 @@ def spider_crawl(seed_pkg: str, current_blocklist: set) -> set:
             except:
                 pass
 
-        # 2. Similar Apps Search
-        try:
-            similar_apps = similar(seed_pkg, lang="en", country="us")
-            for app in similar_apps:
-                pkg = app.get("appId")
-                if pkg and pkg not in current_blocklist and pkg not in SAFE_WHITELIST:
-                    if looks_risky(app.get("title", ""), app.get("summary", "")):
+        # 2. Similar Apps (Using the list returned in details)
+        # google-play-scraper details often has a 'similarApps' key which is a list of IDs or URLs
+        similar_list = details.get('similarApps', [])
+        for sim_app_data in similar_list:
+            # It might be a dict or a string depending on version, 
+            # usually it's a dict with 'appId' if detailed, or just check format.
+            pkg = None
+            if isinstance(sim_app_data, dict):
+                pkg = sim_app_data.get('appId')
+            elif isinstance(sim_app_data, str):
+                # Sometimes it returns full URLs, extract ID
+                if "id=" in sim_app_data:
+                    pkg = sim_app_data.split("id=")[-1].split("&")[0]
+                else:
+                    pkg = sim_app_data # Assume it's the ID
+            
+            if pkg and pkg not in current_blocklist and pkg not in SAFE_WHITELIST:
+                # We need to quickly verify if it's risky. 
+                # We can't fetch details for ALL similar apps (too slow), 
+                # but we can assume if it's in "Similar" to a blocked app, it's suspect.
+                # Let's fetch basic details to check keywords.
+                try:
+                    sim_details = fetch_app_details_robust(pkg)
+                    if sim_details and looks_risky(sim_details.get("title", ""), sim_details.get("summary", "")):
                         print(f"    [SPIDER-SIM] Found similar trash app: {pkg}")
                         new_finds.add(pkg)
-        except:
-            pass
+                except:
+                    pass
 
     except Exception:
         pass
@@ -248,16 +250,18 @@ def main():
                 final_blocklist.add(pkg)
         except: continue
 
-    # -------- 3. Trash Spider Strategy (New Modification) --------
+    # -------- 3. Trash Spider Strategy --------
     print("\n--- Running Trash Spider (Recursion) ---")
-    # We create a copy of the list to iterate over so we don't modify the loop source
-    # We only spider the newly found apps or always_block to save time, 
-    # but for thoroughness, let's spider the "Always Block" list specifically.
-    
     spider_seeds = list(ALWAYS_BLOCK)
     # Add some randoms from the final blocklist to spider too
-    spider_seeds.extend(random.sample(list(final_blocklist), min(20, len(final_blocklist))))
+    if len(final_blocklist) > 20:
+        spider_seeds.extend(random.sample(list(final_blocklist), 20))
+    else:
+        spider_seeds.extend(list(final_blocklist))
     
+    # Dedup seeds
+    spider_seeds = list(set(spider_seeds))
+
     print(f"Spidering {len(spider_seeds)} seed apps for clones...")
     
     spider_new_finds = set()
@@ -277,8 +281,6 @@ def main():
     before_whitelist = len(final_blocklist)
     final_blocklist.difference_update(SAFE_WHITELIST)
     
-    # MODIFIED: Always write the file to ensure it's sorted and fresh.
-    # This solves the issue where identical but unsorted content wouldn't update.
     print(f"[+] Writing blocklist.txt with {len(final_blocklist)} apps.")
     with open("blocklist.txt", "w") as f:
         f.write("# Auto-generated Blocklist\n")
