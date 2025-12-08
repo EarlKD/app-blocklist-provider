@@ -276,3 +276,9 @@ xyz.chefdice.boldhub
 xyz.copiee.android
 xyz.oceanzz.android
 younow.live
+com.chat.tico
+com.colive.orange
+com.ct.shots.video
+com.rosyandroid.xme
+com.wheat.mango
+com.xv.hamet
