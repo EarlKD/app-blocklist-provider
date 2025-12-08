@@ -11,6 +11,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0   # so we can pull / rebase
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
