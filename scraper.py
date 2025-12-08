@@ -105,8 +105,21 @@ SAFE_CONTEXT_WORDS = [
 # Secondary source of candidates
 APPBRAIN_URL = "https://www.appbrain.com/apps/trending/social"
 
+# Package name validation (simple but good enough for Play IDs)
+PKG_ID_RE = re.compile(r"^[a-zA-Z0-9_]+\.[a-zA-Z0-9_.]+$")
+
 
 # ================== HELPERS ==================
+
+def is_valid_package_name(pkg_id: str) -> bool:
+    """
+    Basic sanity check for Android package names so we don't end up
+    with junk entries like 'com.' or 'android' in the blocklist.
+    """
+    if not pkg_id:
+        return False
+    return PKG_ID_RE.match(pkg_id) is not None
+
 
 def looks_risky(title: str, summary: str) -> bool:
     """
@@ -131,6 +144,7 @@ def looks_risky(title: str, summary: str) -> bool:
 def load_existing_blocklist(path: str = "blocklist.txt") -> set:
     """
     Load existing blocklist.txt into a set (ignores comments and blanks).
+    Filters out obviously-invalid package names.
     """
     existing = set()
     if not os.path.exists(path):
@@ -139,8 +153,12 @@ def load_existing_blocklist(path: str = "blocklist.txt") -> set:
     with open(path, "r") as f:
         for line in f:
             line = line.strip()
-            if line and not line.startswith("#"):
-                existing.add(line)
+            if not line or line.startswith("#"):
+                continue
+            if not is_valid_package_name(line):
+                # Skip junk like "com." or "android"
+                continue
+            existing.add(line)
     return existing
 
 
@@ -173,7 +191,9 @@ def fetch_appbrain_candidates() -> set:
         resp = requests.get(APPBRAIN_URL, headers=headers, timeout=15)
         if resp.status_code == 200:
             matches = re.findall(r"/app/[^/]+/([a-zA-Z0-9_\.]+)", resp.text)
-            pkgs.update(matches)
+            for pkg in matches:
+                if is_valid_package_name(pkg):
+                    pkgs.add(pkg)
             print(f"    AppBrain candidates found: {len(pkgs)}")
         else:
             print(f"    AppBrain Status: {resp.status_code}")
@@ -185,12 +205,15 @@ def fetch_appbrain_candidates() -> set:
 # ================== MAIN ==================
 
 def main():
-    # Load previous results + always-block baseline
-    final_blocklist = load_existing_blocklist()
+    # 1) Load previous results
+    previous_blocklist = load_existing_blocklist()
+    final_blocklist = set(previous_blocklist)
+
+    # 2) Add always-block baseline
     final_blocklist.update(ALWAYS_BLOCK)
 
-    initial_count = len(final_blocklist)
-    print(f"[+] Loaded {initial_count} existing apps (including ALWAYS_BLOCK).")
+    print(f"[+] Loaded {len(previous_blocklist)} existing apps.")
+    print(f"[+] After ALWAYS_BLOCK merge: {len(final_blocklist)} apps.")
 
     # -------- 1. Google Play Search Scanning --------
     for country in TARGET_COUNTRIES:
@@ -205,7 +228,7 @@ def main():
 
                 for app in results:
                     pkg = app.get("appId")
-                    if not pkg:
+                    if not pkg or not is_valid_package_name(pkg):
                         continue
 
                     if pkg in SAFE_WHITELIST or pkg in final_blocklist:
@@ -230,7 +253,7 @@ def main():
 
                 for app in results:
                     pkg = app.get("appId")
-                    if not pkg:
+                    if not pkg or not is_valid_package_name(pkg):
                         continue
 
                     if pkg in SAFE_WHITELIST or pkg in final_blocklist:
@@ -250,6 +273,9 @@ def main():
     candidates = fetch_appbrain_candidates()
     print("\n--- Validating AppBrain Candidates ---")
     for pkg in candidates:
+        if not is_valid_package_name(pkg):
+            continue
+
         if pkg in final_blocklist or pkg in SAFE_WHITELIST:
             continue
 
@@ -274,17 +300,29 @@ def main():
             # App might not exist in US/IN store or scraper failed; skip quietly
             continue
 
-    # -------- 3. Save Updated Blocklist --------
-    if len(final_blocklist) > initial_count:
-        added = len(final_blocklist) - initial_count
-        print(f"\n[+] Saving blocklist.txt with {len(final_blocklist)} apps "
-              f"(+{added} new).")
+    # -------- 3. Apply whitelist and save if changed --------
+
+    # Whitelist must win over everything (even ALWAYS_BLOCK and old entries)
+    before_whitelist = len(final_blocklist)
+    final_blocklist.difference_update(SAFE_WHITELIST)
+    after_whitelist = len(final_blocklist)
+
+    if after_whitelist != before_whitelist:
+        print(f"\n[+] Whitelist removed {before_whitelist - after_whitelist} apps.")
+
+    # Compare against what was in blocklist.txt before
+    if final_blocklist != previous_blocklist:
+        delta = len(final_blocklist) - len(previous_blocklist)
+        print(
+            f"[+] Saving blocklist.txt with {len(final_blocklist)} apps "
+            f"(net change: {delta:+d})."
+        )
         with open("blocklist.txt", "w") as f:
             f.write("# Auto-generated Blocklist\n")
             for pkg in sorted(final_blocklist):
                 f.write(f"{pkg}\n")
     else:
-        print("\n[+] No new apps found. blocklist.txt unchanged.")
+        print("\n[+] No changes to blocklist. blocklist.txt unchanged.")
 
 
 if __name__ == "__main__":
