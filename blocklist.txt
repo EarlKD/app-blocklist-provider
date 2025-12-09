@@ -282,4 +282,3 @@ com.ct.shots.video
 com.rosyandroid.xme
 com.wheat.mango
 com.xv.hamet
-com.afwsamples.testdpc
