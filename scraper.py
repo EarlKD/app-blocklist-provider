@@ -54,7 +54,7 @@ ALWAYS_BLOCK = [
 
 # Apps that should NEVER be blocked
 SAFE_WHITELIST = {
-    "com.whatsapp", "com.whatsapp.w4b", "org.telegram.messenger",
+    "com.google.android.safetycore","com.whatsapp", "com.whatsapp.w4b", "org.telegram.messenger",
     "com.facebook.orca", "com.snapchat.android", "com.instagram.android",
     "com.twitter.android", "com.discord", "com.skype.raider",
     "com.viber.voip", "jp.naver.line.android", "com.kakao.talk",
