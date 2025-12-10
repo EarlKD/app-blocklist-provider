@@ -91,7 +91,6 @@ com.getpure.pure
 com.gijoy.yah.live
 com.go.flingo.app
 com.gogolive
-com.google.android.safetycore
 com.guochao.faceshow
 com.gy.ad.pro
 com.halo.desicall
