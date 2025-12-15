@@ -158,7 +158,6 @@ com.litnow.live
 com.liv.meetrel.lite
 com.live.bling.android
 com.live.soulchill
-com.live.streamer.online.app.video
 com.live.video.call.chat.girl.online
 com.live.videocall.talk.call
 com.live.videochat.india
