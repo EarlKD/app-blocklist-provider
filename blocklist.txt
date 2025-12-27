@@ -349,4 +349,3 @@ xyz.chefdice.boldhub
 xyz.copiee.android
 xyz.oceanzz.android
 younow.live
-com.live.streamer.online.app.video
