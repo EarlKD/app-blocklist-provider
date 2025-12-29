@@ -169,6 +169,7 @@ com.joyreels.video
 com.juphoon.justalk
 com.kamalive.chat
 com.kinklifes.app
+com.kismia.app
 com.lalin.release
 com.layla.chat4
 com.lens.joy
@@ -350,6 +351,7 @@ org.dico.dream.android
 org.example.biulive
 org.example.biulivepro
 org.gadoo.match.room.pro
+org.harshmeet.room.pro
 org.salwa.livechat
 org.sisquad.sis
 ru.mobstudio.andgalaxy
