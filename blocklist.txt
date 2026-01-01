@@ -5,6 +5,7 @@ ai.mira.videochat
 air.com.flaxbin.freechat
 andro.ma.linkv.chat
 app.chatmatch
+app.dekhoji
 app.duoyo.bolo
 app.duoyo.call
 app.duoyo.duoyo
@@ -27,6 +28,7 @@ chat.streammet.videocall
 chatrandom.com
 cn.neoclub.uki
 cn.upuppro.app
+co.feeld
 co.hud.app
 co.yellw.yellowapp
 com.Chatspin
@@ -34,6 +36,7 @@ com.PocoLive.video.call.chat
 com.PokaLive
 com.ahchat.app
 com.air.talk.connect
+com.anpro.yuuki
 com.antiland
 com.app.meego.android
 com.appureka.vidi
@@ -105,6 +108,7 @@ com.desitalk.livetalk
 com.download.funny.online
 com.driftingbottle.application
 com.duochat
+com.echo.voice
 com.elive.joy.android
 com.eloelo
 com.emmaProjectse.emmala.emma
@@ -124,6 +128,7 @@ com.fwbhookup.xpal
 com.gagasoft.ranchat
 com.gamaa.dogoo
 com.gamaa.joy
+com.gamaa.malla
 com.getfilteroff.filteroff
 com.getpure.pure
 com.gijoy.yah.live
@@ -166,6 +171,7 @@ com.jaumo.casual
 com.joy.litgo
 com.joymet.videocall
 com.joyreels.video
+com.juicy.social
 com.juphoon.justalk
 com.kamalive.chat
 com.kinklifes.app
@@ -221,6 +227,7 @@ com.mumu.videochat.india
 com.mychatclub.mcc
 com.myyearbook.m
 com.naughty.androidapp
+com.never.die
 com.newellmediallc.live.coco
 com.newellmediallc.live.hippo
 com.nuvylive.chat
@@ -276,6 +283,7 @@ com.sociatools.strangerchatapp
 com.st.dinilive
 com.star.moki.lite
 com.storm.yi.memu
+com.stranger.chat.random
 com.strangers.chat_developers.strangerschatapp
 com.streamtech.chat
 com.sunshineseoul.ranchat
@@ -286,6 +294,7 @@ com.talkhive.video
 com.talkielive
 com.tangerine.live.cake
 com.tangerine.live.cam
+com.taralive.chat
 com.ti.live.stream
 com.tigo.flower
 com.toctoc.video.live.chat
@@ -333,6 +342,7 @@ hookup.dating.kasual
 im.twogo.godroid
 io.chingari.app
 jcsla.randomtalk
+juicy.livechat.videocall
 kenneth.rtalkall
 land.lifeoasis.maum
 live.aha.n
@@ -359,6 +369,7 @@ ru.rouletka.pwa
 sg.bigo.hellotalk
 sg.bigo.live
 sg.omi
+so.nymph.android
 tech.dollin.dol
 technesia.co.nanimas_update.now
 video.chat.fitness.app
