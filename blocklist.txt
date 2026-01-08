@@ -114,6 +114,7 @@ com.eloelo
 com.emmaProjectse.emmala.emma
 com.esl.matchup
 com.evecall.videochat
+com.evermatch
 com.exutech.chacha
 com.fachat.freechat
 com.fchandilo.agnf
@@ -150,6 +151,7 @@ com.hiiclub.live
 com.hily.app
 com.hiyak.chat
 com.hkfuliao.chamet
+com.hmilaap.her
 com.honeycam
 com.honeycam.lite
 com.honeycam.pro
@@ -168,6 +170,7 @@ com.infilnt.glimr
 com.ipssingp.skyparty
 com.jaumo
 com.jaumo.casual
+com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
 com.joyreels.video
@@ -176,6 +179,7 @@ com.juphoon.justalk
 com.kamalive.chat
 com.kinklifes.app
 com.kismia.app
+com.kkpro.livechat
 com.lalin.release
 com.layla.chat4
 com.lens.joy
@@ -199,6 +203,7 @@ com.liveup.app
 com.livhub.android
 com.localhookupdating.android
 com.localmate.app
+com.lovbedo
 com.lovematch.livechat.videocall
 com.lowins.chat
 com.lulu.times.lives
@@ -209,6 +214,7 @@ com.match.android.matchmobile
 com.matchpublive
 com.matchtech.cafe
 com.matchtech.solive
+com.maybeyou
 com.meet.chat.x
 com.meetingzonechat.videochat
 com.meeya.app
@@ -222,6 +228,7 @@ com.milimili.mimilive
 com.mobile.android.eris
 com.modocommunity.android
 com.mshm.jolly
+com.mshm.jollylite
 com.mumu.videochat
 com.mumu.videochat.india
 com.mychatclub.mcc
@@ -251,6 +258,7 @@ com.pita.kito
 com.plamfy.platform
 com.polaris.fun
 com.polaris.live
+com.popa.video.status.download
 com.poqe.android
 com.probits.argo
 com.project.dita
