@@ -55,6 +55,7 @@ com.bimilyoncu.sscoderr.oregltv
 com.bingo.livetalk
 com.bite.chillchat
 com.biuvideocall
+com.boldd.bold
 com.bombang.terra
 com.bonhub.chathub
 com.bonhub.happy
@@ -76,6 +77,7 @@ com.chatous.chatous
 com.chatplanet.videochat
 com.chatrandom
 com.chatroulette.android
+com.chatup.live.videochat
 com.chatwave.app
 com.cherru.video.live.chat
 com.chharlisma.enjo
@@ -106,6 +108,7 @@ com.deccanappz.livechat.indianchat
 com.desigirls.videochatapp
 com.desitalk.livetalk
 com.download.funny.online
+com.dozeonsl.doze
 com.driftingbottle.application
 com.duochat
 com.echo.voice
@@ -243,6 +246,7 @@ com.oioilive
 com.olamet.mobile
 com.one.goodnight
 com.onlyspark
+com.oopsedtm.ops
 com.oscar.videochat.mk
 com.oscar.videochat.wow
 com.pakmsoftware.chat.random.omegle.stranger
@@ -297,6 +301,7 @@ com.streamtech.chat
 com.sunshineseoul.ranchat
 com.suyong.secretchat
 com.sweetiework.application
+com.tailtales.android
 com.takimi.android
 com.talkhive.video
 com.talkielive
@@ -309,6 +314,7 @@ com.toctoc.video.live.chat
 com.topu.livechat
 com.tumile.videochat
 com.unearby.sayhi
+com.vb.hush
 com.video.vchat
 com.video.welive
 com.video18.dating
