@@ -4,6 +4,7 @@ ai.lola.app
 ai.mira.videochat
 air.com.flaxbin.freechat
 andro.ma.linkv.chat
+app.badanga
 app.chatmatch
 app.dekhoji
 app.duoyo.bolo
@@ -299,6 +300,7 @@ com.stranger.chat.random
 com.strangers.chat_developers.strangerschatapp
 com.streamtech.chat
 com.sunshineseoul.ranchat
+com.surgeapp.zoe
 com.suyong.secretchat
 com.sweetiework.application
 com.tailtales.android
