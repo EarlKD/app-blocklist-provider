@@ -17,6 +17,7 @@ app.mirami.chat
 app.onldst
 app.to0kod
 app.yoro.yor
+bhabhiji.talkmate.app
 biz.trans
 boudi.live.videocall
 camsurf.com
@@ -96,6 +97,7 @@ com.crroyq.kaya
 com.crroyq.papa
 com.ct.shots.video
 com.curlytales.android
+com.curvydating
 com.cusspy.android
 com.cute.tavern
 com.dada.stable.forever
@@ -116,6 +118,7 @@ com.echo.voice
 com.elive.joy.android
 com.eloelo
 com.emmaProjectse.emmala.emma
+com.erra.social
 com.esl.matchup
 com.evecall.videochat
 com.evermatch
