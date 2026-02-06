@@ -55,9 +55,9 @@ ALWAYS_BLOCK = [
 # Apps that should NEVER be blocked
 SAFE_WHITELIST = {
     "com.google.android.safetycore","com.whatsapp", "com.whatsapp.w4b", "org.telegram.messenger",
-    "com.facebook.orca", "com.snapchat.android", "com.instagram.android",
+    "com.facebook.orca", "com.snapchat.android",
     "com.twitter.android", "com.discord", "com.skype.raider",
-    "com.viber.voip", "jp.naver.line.android", "com.kakao.talk",
+    "jp.naver.line.android", "com.kakao.talk",
     "com.signal.messenger", "com.linkedin.android",
     "com.jiochat.jiochatapp", "com.turkcell.bip", "com.nandbox.nandbox",
     "us.zoom.videomeetings", "com.google.android.apps.meetings",
@@ -65,8 +65,8 @@ SAFE_WHITELIST = {
     "com.google.android.talk", "com.google.android.gm", "com.google.android.youtube",
     "in.startv.hotstar", "com.jio.jioplay.tv", "com.graymatrix.did",
     "com.tinder", "com.bumble.app", "co.hinge.app", "com.okcupid.okcupid",
-    "com.badoo.mobile", "com.eharmony", "com.ftw_and_co.happn",
-    "com.pof.android", "net.lovoo.android", "ru.loveplanet.app",
+    "com.eharmony", "com.ftw_and_co.happn",
+    "com.pof.android", "ru.loveplanet.app",
     "ru.mamba.client", "ru.fotostrana.sweetmeet", "com.taggedapp",
     "tv.twitch.android.app", "com.google.android.contactkeys", "com.google.ar.core" 
 }
