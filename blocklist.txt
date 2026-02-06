@@ -411,3 +411,5 @@ xyz.chefdice.boldhub
 xyz.copiee.android
 xyz.oceanzz.android
 younow.live
+com.google.android.youtube
+com.instagram.android
