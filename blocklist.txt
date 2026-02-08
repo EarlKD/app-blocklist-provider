@@ -5,6 +5,7 @@ ai.mira.videochat
 air.com.flaxbin.freechat
 andro.ma.linkv.chat
 app.badanga
+app.boo.cam.erosa
 app.chatmatch
 app.dekhoji
 app.duoyo.bolo
@@ -52,6 +53,7 @@ com.ayecreek.aye
 com.azarlive.android
 com.baatlive.sgvie
 com.baatme.live
+com.badoo.mobile
 com.basoft.halo
 com.bestsiv.xmiga
 com.bigboo.videochat
@@ -59,6 +61,8 @@ com.bimilyoncu.sscoderr.oregltv
 com.bingo.livetalk
 com.bite.chillchat
 com.biuvideocall
+com.blom.lite
+com.bobo.happy
 com.boldd.bold
 com.bombang.terra
 com.bonhub.chathub
@@ -76,6 +80,7 @@ com.chat.live.livcam
 com.chat.tico
 com.chatever
 com.chatlife2.mlnd
+com.chatni.video_call_app
 com.chatnmatch.modoo
 com.chato.amigo
 com.chatous.chatous
@@ -137,6 +142,7 @@ com.flirtini
 com.free.hookup.dating.apps.wild
 com.free.video.call.livechat.indian.bhabhi
 com.friendchat.randomvideochatcall
+com.funlove.vidzo
 com.fwbhookup.xpal
 com.gagasoft.ranchat
 com.gamaa.dogoo
@@ -158,6 +164,7 @@ com.halu
 com.happychat.fita
 com.hay.android
 com.heat.android
+com.hi.chat.app
 com.hickeyapp.app.android
 com.hiiclub.live
 com.hily.app
@@ -179,6 +186,7 @@ com.ig.chat.group
 com.ig.live.chat.call.app
 com.ihappydate
 com.infilnt.glimr
+com.instagram.android
 com.ipssingp.skyparty
 com.jaumo
 com.jaumo.casual
@@ -203,6 +211,7 @@ com.litnow.live
 com.liv.meetrel.lite
 com.live.bling.android
 com.live.butterflies.time
+com.live.kiko
 com.live.soulchill
 com.live.streamer.online.app.video
 com.live.video.call.chat.girl.online
@@ -217,6 +226,7 @@ com.localhookupdating.android
 com.localmate.app
 com.lovbedo
 com.lovematch.livechat.videocall
+com.lovislandsocial.android
 com.lowins.chat
 com.lulu.times.lives
 com.maiz.tangdoo
@@ -237,6 +247,7 @@ com.mico.world
 com.migo.mobile
 com.mikaapp.android
 com.miki.chat
+com.milapp.milapp
 com.milimili.mimilive
 com.mobile.android.eris
 com.modocommunity.android
@@ -379,6 +390,7 @@ melodytalk.camvideo.live
 mingle.android.mingle2
 mini.video.chat
 mirchi.livevideo.chat
+net.lovoo.android
 net.sipme.sip
 next.bondee.tech
 nozy.video.livestream
@@ -411,5 +423,3 @@ xyz.chefdice.boldhub
 xyz.copiee.android
 xyz.oceanzz.android
 younow.live
-com.google.android.youtube
-com.instagram.android
