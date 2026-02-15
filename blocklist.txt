@@ -91,6 +91,7 @@ com.chatup.live.videochat
 com.chatwave.app
 com.cherru.video.live.chat
 com.chharlisma.enjo
+com.chitchatx.picky.pro
 com.client.goparty
 com.client.tenderu.android
 com.colive.guroja
@@ -159,6 +160,7 @@ com.guochao.faceshow
 com.gy.ad.pro
 com.halo.desicall
 com.halo.desihub
+com.halo.well
 com.halo.xtwentyfive
 com.halu
 com.happychat.fita
@@ -182,14 +184,17 @@ com.hub.desishow
 com.hunter.shooting
 com.huya.nimo
 com.hzhz.omar
+com.iblink.meet
 com.ig.chat.group
 com.ig.live.chat.call.app
 com.ihappydate
 com.infilnt.glimr
+com.ingomeyin.luvchatpro
 com.instagram.android
 com.ipssingp.skyparty
 com.jaumo
 com.jaumo.casual
+com.jaumo.lesbian
 com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
@@ -229,6 +234,7 @@ com.lovematch.livechat.videocall
 com.lovislandsocial.android
 com.lowins.chat
 com.lulu.times.lives
+com.mahesh.strangerchat.app
 com.maiz.tangdoo
 com.mamba.lite
 com.mason.wooplus
@@ -250,6 +256,7 @@ com.miki.chat
 com.milapp.milapp
 com.milimili.mimilive
 com.mobile.android.eris
+com.moblie.hiichat
 com.modocommunity.android
 com.mshm.jolly
 com.mshm.jollylite
