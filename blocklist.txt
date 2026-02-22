@@ -135,6 +135,7 @@ com.evecall.videochat
 com.evermatch
 com.exutech.chacha
 com.fachat.freechat
+com.fast.parilive
 com.fchandilo.agnf
 com.fine202.xiaosu
 com.finlovelive.chat
@@ -243,6 +244,7 @@ com.match.zhayan
 com.matchpublive
 com.matchtech.cafe
 com.matchtech.solive
+com.matya.chat.app
 com.maybeyou
 com.meet.chat.x
 com.meetingzonechat.videochat
@@ -308,6 +310,7 @@ com.rosyandroid.xme
 com.royalann.stellacherry
 com.royalann.superbuzar
 com.ryan.lovetalk
+com.saans.callquick
 com.sayhi.plugin.moxi
 com.scorp.who
 com.sdm.dating
