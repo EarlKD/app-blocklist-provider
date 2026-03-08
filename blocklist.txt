@@ -6,6 +6,7 @@ air.com.flaxbin.freechat
 andro.ma.linkv.chat
 app.badanga
 app.boo.cam.erosa
+app.bumpy.android
 app.chatmatch
 app.dekhoji
 app.duoyo.bolo
@@ -259,6 +260,7 @@ com.mikaapp.android
 com.miki.chat
 com.milapp.milapp
 com.milimili.mimilive
+com.mnanjwa.links.android
 com.mobile.android.eris
 com.moblie.hiichat
 com.modocommunity.android
