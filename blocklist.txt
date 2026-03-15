@@ -71,6 +71,7 @@ com.bonhub.chathub
 com.bonhub.happy
 com.boochat.sefsf
 com.bunchat.lite
+com.bytestudio.randomchat
 com.callingme.chat
 com.cammie.cc.chat
 com.camsea.videochat
@@ -199,6 +200,7 @@ com.ipssingp.skyparty
 com.jaumo
 com.jaumo.casual
 com.jaumo.lesbian
+com.jjjj.joyvid.app
 com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
@@ -233,6 +235,7 @@ com.liveup.app
 com.livhub.android
 com.localhookupdating.android
 com.localmate.app
+com.lotta.lol
 com.lovbedo
 com.lovematch.livechat.videocall
 com.lovislandsocial.android
@@ -279,6 +282,7 @@ com.nuvylive.chat
 com.ofotech.app
 com.oioilive
 com.olamet.mobile
+com.olametlite.mobile
 com.one.goodnight
 com.onlyspark
 com.oopsedtm.ops
@@ -313,6 +317,7 @@ com.rock.glisten.hana
 com.rosyandroid.xme
 com.royalann.stellacherry
 com.royalann.superbuzar
+com.rsin.strangerchat
 com.ryan.lovetalk
 com.saans.callquick
 com.sayhi.plugin.moxi
