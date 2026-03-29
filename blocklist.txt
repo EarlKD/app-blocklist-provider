@@ -3,6 +3,7 @@ ai.blush
 ai.lola.app
 ai.mira.videochat
 air.com.flaxbin.freechat
+and.desire.on.desireon
 andro.ma.linkv.chat
 app.badanga
 app.boo.cam.erosa
@@ -93,6 +94,7 @@ com.chatrandom
 com.chatroulette.android
 com.chatup.live.videochat
 com.chatwave.app
+com.chatway.mobile
 com.cherru.video.live.chat
 com.chharlisma.enjo
 com.chitchatx.picky.pro
@@ -216,6 +218,7 @@ com.kismia.app
 com.kkpro.livechat
 com.lalin.release
 com.layla.chat4
+com.ld.shooting.pro
 com.lens.joy
 com.liketoo
 com.limetric.strangerschat
@@ -308,6 +311,7 @@ com.popa.video.status.download
 com.poqe.android
 com.probits.argo
 com.project.dita
+com.pyaar.livevideo
 com.qhqc.starvoice
 com.quyue.ttchat
 com.radi.song
@@ -353,6 +357,7 @@ com.talkielive
 com.tangerine.live.cake
 com.tangerine.live.cam
 com.taralive.chat
+com.thvine.nayo
 com.ti.live.stream
 com.tigo.flower
 com.toctoc.video.live.chat
@@ -360,6 +365,7 @@ com.topu.livechat
 com.tumile.videochat
 com.unearby.sayhi
 com.vb.hush
+com.viboo.live.stream.chat
 com.video.vchat
 com.video.welive
 com.video18.dating
@@ -427,6 +433,7 @@ org.example.biulivepro
 org.gadoo.match.room.pro
 org.harshmeet.room.pro
 org.salwa.livechat
+org.salwa.livechat.lite
 org.sisquad.sis
 ru.mobstudio.andgalaxy
 ru.rouletka.pwa
