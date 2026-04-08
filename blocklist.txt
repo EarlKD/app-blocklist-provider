@@ -207,6 +207,7 @@ com.jaumo
 com.jaumo.casual
 com.jaumo.lesbian
 com.jjjj.joyvid.app
+com.jjjj.joyvid.histranger
 com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
@@ -214,6 +215,7 @@ com.joyreels.video
 com.juicy.social
 com.juphoon.justalk
 com.kamalive.chat
+com.kilystudio.call
 com.kinklifes.app
 com.kismia.app
 com.kkpro.livechat
@@ -291,6 +293,7 @@ com.oioilive
 com.olamet.mobile
 com.olametlite.mobile
 com.one.goodnight
+com.one.goodnightrainbow
 com.onlyspark
 com.oopsedtm.ops
 com.oscar.videochat.mk
@@ -363,6 +366,7 @@ com.thvine.nayo
 com.ti.live.stream
 com.tigo.flower
 com.toctoc.video.live.chat
+com.tophy.android
 com.topu.livechat
 com.tumile.videochat
 com.unearby.sayhi
@@ -396,6 +400,7 @@ com.xexalive.chat
 com.xv.hamet
 com.xv.joychat.india
 com.xv.joychat.lite
+com.yappoo.ideauth
 com.yeahoo.chat
 com.yochat.freechat
 com.yy.guava
@@ -411,6 +416,7 @@ hookup.dating.kasual
 im.twogo.godroid
 io.chingari.app
 jcsla.randomtalk
+jola.pro.globaltalk
 juicy.livechat.videocall
 kenneth.rtalkall
 land.lifeoasis.maum
