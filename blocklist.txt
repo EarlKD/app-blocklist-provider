@@ -43,6 +43,7 @@ com.PocoLive.video.call.chat
 com.PokaLive
 com.ahchat.app
 com.air.talk.connect
+com.anonova.anonimchat
 com.anpro.yuuki
 com.antiland
 com.app.meego.android
@@ -82,6 +83,7 @@ com.chaloji.link
 com.chat.joychat
 com.chat.live.gomeettoday
 com.chat.live.livcam
+com.chat.mapleaf.liza
 com.chat.tico
 com.chatever
 com.chatlife2.mlnd
@@ -126,6 +128,7 @@ com.dating.android
 com.dating.chat.citas.app
 com.dating.lovector
 com.dating.pheromance
+com.datingapps
 com.deccanappz.livechat.indianchat
 com.desigirls.videochatapp
 com.desitalk.livetalk
@@ -192,6 +195,7 @@ com.hotti.android
 com.hpcnt.vividi
 com.hub.desilive
 com.hub.desishow
+com.hubufdjhqu.project
 com.hunter.shooting
 com.huya.nimo
 com.hzhz.omar
@@ -219,6 +223,7 @@ com.kilystudio.call
 com.kinklifes.app
 com.kismia.app
 com.kkpro.livechat
+com.knight.errant
 com.lalin.release
 com.layla.chat4
 com.ld.shooting.pro
@@ -349,6 +354,7 @@ com.st.dinilive
 com.star.moki.lite
 com.storm.yi.memu
 com.stranger.chat.random
+com.strangercam.strangercam
 com.strangers.chat_developers.strangerschatapp
 com.streamtech.chat
 com.sunshineseoul.ranchat
@@ -376,6 +382,7 @@ com.video.vchat
 com.video.welive
 com.video18.dating
 com.videocall.chatonmessage.videochat
+com.videochat.dateu.online
 com.videochat.kklink
 com.videochat.livchat
 com.videochat.livu
