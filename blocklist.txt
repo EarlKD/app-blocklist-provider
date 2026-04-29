@@ -74,6 +74,7 @@ com.bombang.terra
 com.bonhub.chathub
 com.bonhub.happy
 com.boochat.sefsf
+com.bopbop.tcblep
 com.bunchat.lite
 com.bytestudio.randomchat
 com.callingme.chat
