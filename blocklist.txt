@@ -347,6 +347,7 @@ com.ryan.lovetalk
 com.saans.callquick
 com.sayhi.plugin.moxi
 com.scorp.who
+com.sdcmedia.swingers.g4
 com.sdm.dating
 com.sec.android.easyMover
 com.serendip.release
