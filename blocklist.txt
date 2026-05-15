@@ -61,6 +61,7 @@ com.azarlive.android
 com.baatlive.sgvie
 com.baatme.live
 com.badoo.mobile
+com.bamet_dating.app_2020
 com.basoft.halo
 com.beianchuangde.haluGaGa
 com.bestsiv.xmiga
@@ -80,6 +81,7 @@ com.bopbop.tcblep
 com.bunchat.lite
 com.bytestudio.randomchat
 com.callingme.chat
+com.callzy.video_chat_app
 com.cammie.cc.chat
 com.camsea.videochat
 com.camshare.camfrog.android
@@ -90,6 +92,7 @@ com.chat.live.livcam
 com.chat.mapleaf.liza
 com.chat.tico
 com.chatever
+com.chatguru_online.video_call_app
 com.chatlife2.mlnd
 com.chatloop.app
 com.chatni.video_call_app
@@ -113,6 +116,7 @@ com.colive.orange2
 com.colive.yaja
 com.comhub.onlinechat.android.video
 com.comlive
+com.comyaar.chat_app_2026
 com.cookie.emerald
 com.coomeet.app
 com.cooperation.vchat
@@ -124,6 +128,8 @@ com.curlytales.android
 com.curvydating
 com.cusspy.android
 com.cute.tavern
+com.cute.tavernlite
+com.cute.tavernpro
 com.cuteupro.videochat
 com.dada.stable.forever
 com.daily.unity.callalive
@@ -187,6 +193,7 @@ com.halu
 com.happychat.fita
 com.hay.android
 com.heat.android
+com.helloji.chats_app_2026
 com.hi.chat.app
 com.hickeyapp.app.android
 com.hiiclub.live
@@ -215,6 +222,7 @@ com.infilnt.glimr
 com.ingomeyin.luvchatpro
 com.instagram.android
 com.ipssingp.skyparty
+com.isa.yoky.pro
 com.jaumo
 com.jaumo.casual
 com.jaumo.lesbian
@@ -261,6 +269,7 @@ com.localmate.app
 com.lotta.lol
 com.lovbedo
 com.lovematch.livechat.videocall
+com.loveu_dating.app_2025
 com.lovislandsocial.android
 com.lowins.chat
 com.lulu.times.lives
@@ -279,6 +288,7 @@ com.meet.chat.x
 com.meetingzonechat.videochat
 com.meeya.app
 com.melot.sktv
+com.meto_videochat.app_2026
 com.metokj.meto
 com.mico.world
 com.migo.mobile
@@ -286,6 +296,7 @@ com.mikaapp.android
 com.miki.chat
 com.milapp.milapp
 com.milimili.mimilive
+com.milona.app_2025
 com.mnanjwa.links.android
 com.mobile.android.eris
 com.moblie.hiichat
@@ -300,6 +311,7 @@ com.mychatclub.mcc
 com.myyearbook.m
 com.naughty.androidapp
 com.never.die
+com.newchat.chattygo
 com.newellmediallc.live.coco
 com.newellmediallc.live.hippo
 com.nuvylive.chat
@@ -373,6 +385,7 @@ com.sunshineseoul.ranchat
 com.surgeapp.zoe
 com.suyong.secretchat
 com.sweetcallin.desidil
+com.sweetcallin.xfifty
 com.sweetiework.application
 com.tailtales.android
 com.takimi.android
@@ -451,6 +464,7 @@ mingle.android.mingle
 mingle.android.mingle2
 mini.video.chat
 mirchi.livevideo.chat
+net.cata.ai.android
 net.lovoo.android
 net.sipme.sip
 next.bondee.tech
