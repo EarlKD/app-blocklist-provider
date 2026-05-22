@@ -79,6 +79,8 @@ com.bonhub.happy
 com.boochat.sefsf
 com.bopbop.tcblep
 com.bunchat.lite
+com.byte.OmegalCam
+com.byte.strangerchat
 com.bytestudio.randomchat
 com.callingme.chat
 com.callzy.video_chat_app
@@ -91,6 +93,7 @@ com.chat.live.gomeettoday
 com.chat.live.livcam
 com.chat.mapleaf.liza
 com.chat.tico
+com.chatee.live
 com.chatever
 com.chatguru_online.video_call_app
 com.chatlife2.mlnd
@@ -275,6 +278,7 @@ com.lowins.chat
 com.lulu.times.lives
 com.mahesh.strangerchat.app
 com.maiz.tangdoo
+com.mama.naya
 com.mamba.lite
 com.mason.wooplus
 com.match.android.matchmobile
@@ -351,6 +355,7 @@ com.radi.song
 com.random.chat.app
 com.random.chat.stranger
 com.randomvideochatv.app
+com.randomvideomatch.xxavideochatapp.chat1011
 com.rcplatform.livechat
 com.riffProject.riff
 com.rock.glisten.hana
