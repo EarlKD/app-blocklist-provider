@@ -158,6 +158,7 @@ com.erra.social
 com.esl.matchup
 com.evecall.videochat
 com.evermatch
+com.evoarn.soullinker
 com.exutech.chacha
 com.fachat.freechat
 com.fast.parilive
@@ -208,6 +209,7 @@ com.honeycam
 com.honeycam.lite
 com.honeycam.pro
 com.hoogo.hoogo
+com.hotornot.app
 com.hotti.android
 com.hpcnt.vividi
 com.hub.desilive
@@ -236,6 +238,7 @@ com.joy.litgo
 com.joymet.videocall
 com.joyreels.video
 com.juicy.social
+com.julieet.in
 com.juphoon.justalk
 com.kamalive.chat
 com.kilystudio.call
