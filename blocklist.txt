@@ -94,6 +94,7 @@ com.chat.live.livcam
 com.chat.mapleaf.liza
 com.chat.tico
 com.chatee.live
+com.chatetyamo
 com.chatever
 com.chatguru_online.video_call_app
 com.chatlife2.mlnd
@@ -243,6 +244,7 @@ com.juphoon.justalk
 com.kamalive.chat
 com.kilystudio.call
 com.kinklifes.app
+com.kiora.thirdapp
 com.kismia.app
 com.kkpro.livechat
 com.knight.errant
