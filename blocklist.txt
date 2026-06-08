@@ -185,6 +185,7 @@ com.github.android
 com.go.flingo.app
 com.godhkvexa.recho
 com.gogolive
+com.goruntulusohbet.tolky
 com.grandview.youflirt
 com.grindrapp.android
 com.guochao.faceshow
@@ -281,6 +282,7 @@ com.loveu_dating.app_2025
 com.lovislandsocial.android
 com.lowins.chat
 com.lulu.times.lives
+com.madhuvan.babbly.live.video.call
 com.mahesh.strangerchat.app
 com.maiz.tangdoo
 com.mama.naya
@@ -429,6 +431,7 @@ com.videochatv.live.random
 com.videostreamapp.meet
 com.videotalk.live
 com.viewr.nchat
+com.vizzy.loveucall
 com.wakie.android
 com.wamba.bbs
 com.wannachat.live
