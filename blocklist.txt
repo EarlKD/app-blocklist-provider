@@ -62,6 +62,7 @@ com.baatlive.sgvie
 com.baatme.live
 com.badoo.mobile
 com.bamet_dating.app_2020
+com.basbolo.pluto
 com.basoft.halo
 com.beianchuangde.haluGaGa
 com.bestsiv.xmiga
@@ -405,6 +406,7 @@ com.talkhive.video
 com.talkielive
 com.tangerine.live.cake
 com.tangerine.live.cam
+com.tantantribe.tribe
 com.taralive.chat
 com.thvine.nayo
 com.ti.live.stream
