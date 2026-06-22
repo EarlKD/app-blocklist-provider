@@ -67,6 +67,7 @@ com.basoft.halo
 com.beianchuangde.haluGaGa
 com.bestsiv.xmiga
 com.bigboo.videochat
+com.bilalive.live.app
 com.bimilyoncu.sscoderr.oregltv
 com.bingo.livetalk
 com.bite.chillchat
@@ -89,6 +90,7 @@ com.cammie.cc.chat
 com.camsea.videochat
 com.camshare.camfrog.android
 com.chaloji.link
+com.chamiapp.chat
 com.chat.joychat
 com.chat.live.gomeettoday
 com.chat.live.livcam
@@ -147,6 +149,7 @@ com.dating.pheromance
 com.datingapps
 com.deccanappz.livechat.indianchat
 com.desigirls.videochatapp
+com.desimet.vndur
 com.desitalk.livetalk
 com.download.funny.online
 com.dozeonsl.doze
@@ -155,6 +158,7 @@ com.duochat
 com.echo.voice
 com.elive.joy.android
 com.eloelo
+com.elpetues.oohyeah
 com.emmaProjectse.emmala.emma
 com.erra.social
 com.esl.matchup
@@ -226,6 +230,7 @@ com.iblink.meet
 com.ig.chat.group
 com.ig.live.chat.call.app
 com.ihappydate
+com.indidino.dating
 com.infilnt.glimr
 com.ingomeyin.luvchatpro
 com.instagram.android
@@ -348,6 +353,7 @@ com.peptech.peeper
 com.phollow.app
 com.phx.waha
 com.picpals.app
+com.pink.videochat
 com.pita.kito
 com.plamfy.platform
 com.polaris.fun
@@ -403,6 +409,7 @@ com.sweetiework.application
 com.tailtales.android
 com.takimi.android
 com.talkhive.video
+com.talki.video
 com.talkielive
 com.tangerine.live.cake
 com.tangerine.live.cam
@@ -412,6 +419,7 @@ com.thvine.nayo
 com.ti.live.stream
 com.tigo.flower
 com.toctoc.video.live.chat
+com.tomeets.live.tomeet.lite
 com.tophy.android
 com.topu.livechat
 com.tumile.videochat
@@ -432,6 +440,7 @@ com.videochat.videocall
 com.videochatv.live.random
 com.videostreamapp.meet
 com.videotalk.live
+com.videotapechats.app
 com.viewr.nchat
 com.vizzy.loveucall
 com.wakie.android
@@ -458,6 +467,7 @@ com.zeeplive.app
 com.zen.dodoll
 com.zigzag.zigzagchat
 com.zipchat.funny
+com.zivio.hahara
 cool.monkey.android
 dating.app.flirt.chat.matcher
 de.mobiletrend.lovidoo
@@ -494,6 +504,7 @@ org.gadoo.match.room.pro
 org.hami.nightchat.lite
 org.hami.nightchat.pro
 org.harshmeet.room.pro
+org.mohalive.chat.lite
 org.salwa.livechat
 org.salwa.livechat.lite
 org.sisquad.sis
