@@ -13,6 +13,7 @@ app.dekhoji
 app.duoyo.bolo
 app.duoyo.call
 app.duoyo.duoyo
+app.duoyo.lite
 app.duoyo.masti
 app.hook.dating
 app.localdating.hmu
@@ -177,6 +178,7 @@ com.forplay.app
 com.free.hookup.dating.apps.wild
 com.free.video.call.livechat.indian.bhabhi
 com.friendchat.randomvideochatcall
+com.frimustechnologies.bhabhi
 com.funlove.vidzo
 com.fwbhookup.xpal
 com.gagasoft.ranchat
@@ -415,6 +417,7 @@ com.tangerine.live.cake
 com.tangerine.live.cam
 com.tantantribe.tribe
 com.taralive.chat
+com.theystream
 com.thvine.nayo
 com.ti.live.stream
 com.tigo.flower
@@ -507,6 +510,7 @@ org.harshmeet.room.pro
 org.mohalive.chat.lite
 org.salwa.livechat
 org.salwa.livechat.lite
+org.salwa.livechat.pro
 org.sisquad.sis
 ru.mobstudio.andgalaxy
 ru.rouletka.pwa
@@ -516,6 +520,7 @@ sg.omi
 so.nymph.android
 tech.dollin.dol
 technesia.co.nanimas_update.now
+tv.hinow.mobile
 video.chat.fitness.app
 video.chat.gaze
 video.chat.joi
