@@ -226,6 +226,7 @@ com.hub.desishow
 com.hubufdjhqu.project
 com.hunter.shooting
 com.huya.nimo
+com.hyapp.chat.dating.massenger
 com.hyapp.chat.dating.messenger
 com.hzhz.omar
 com.iblink.meet
@@ -508,6 +509,7 @@ org.hami.nightchat.lite
 org.hami.nightchat.pro
 org.harshmeet.room.pro
 org.mohalive.chat.lite
+org.pelichat.heygo
 org.salwa.livechat
 org.salwa.livechat.lite
 org.salwa.livechat.pro
