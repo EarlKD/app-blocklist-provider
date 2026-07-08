@@ -46,6 +46,7 @@ com.PokaLive
 com.adbhut.aht
 com.ahchat.app
 com.air.talk.connect
+com.aisle.app
 com.anonova.anonimchat
 com.anpro.yuuki
 com.antiland
@@ -346,6 +347,7 @@ com.oopsedtm.ops
 com.oscar.videochat.mk
 com.oscar.videochat.wow
 com.pakmsoftware.chat.random.omegle.stranger
+com.paktor
 com.paltalk.chat.android
 com.panda.likerro
 com.parau.pro.videochat
@@ -396,6 +398,7 @@ com.skout.android
 com.skylb.hola.app
 com.slowen.pecan
 com.sociatools.strangerchatapp
+com.soulslive.video
 com.st.dinilive
 com.star.moki.lite
 com.storm.yi.memu
