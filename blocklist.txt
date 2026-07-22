@@ -4,6 +4,8 @@ ai.lola.app
 ai.mira.videochat
 air.com.flaxbin.freechat
 and.desire.on.desireon
+and.desire.on.joyra
+and.desire.on.vivra
 andro.ma.linkv.chat
 app.badanga
 app.boo.cam.erosa
@@ -97,6 +99,7 @@ com.chat.joychat
 com.chat.live.gomeettoday
 com.chat.live.livcam
 com.chat.mapleaf.liza
+com.chat.ruletka
 com.chat.tico
 com.chatee.live
 com.chatetyamo
@@ -292,6 +295,7 @@ com.loveu_dating.app_2025
 com.lovislandsocial.android
 com.lowins.chat
 com.lulu.times.lives
+com.lv.yseeklive
 com.madhuvan.babbly.live.video.call
 com.mahesh.strangerchat.app
 com.maiz.tangdoo
@@ -360,6 +364,7 @@ com.phollow.app
 com.phx.waha
 com.picpals.app
 com.pink.videochat
+com.pinky.kiko
 com.pita.kito
 com.plamfy.platform
 com.polaris.fun
@@ -402,6 +407,7 @@ com.sociatools.strangerchatapp
 com.soulslive.video
 com.st.dinilive
 com.star.moki.lite
+com.stnts.sallo
 com.storm.yi.memu
 com.stranger.chat.random
 com.strangercam.strangercam
@@ -471,6 +477,7 @@ com.yappoo.ideauth
 com.yeahoo.chat
 com.yochat.freechat
 com.yy.guava
+com.zdd.app
 com.zeeplive.app
 com.zen.dodoll
 com.zigzag.zigzagchat
