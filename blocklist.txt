@@ -87,6 +87,7 @@ com.bopbop.tcblep
 com.bunchat.lite
 com.byte.OmegalCam
 com.byte.strangerchat
+com.bytestudio.milo
 com.bytestudio.randomchat
 com.callingme.chat
 com.callzy.video_chat_app
@@ -329,6 +330,7 @@ com.modocommunity.android
 com.mshm.jolly
 com.mshm.jollylite
 com.mshm.jollypro
+com.multicrit.anonymousrandomstrangerchat
 com.mumu.videochat
 com.mumu.videochat.india
 com.myapp.randomchat
@@ -469,6 +471,7 @@ com.wideview.lovers
 com.wigle.chat
 com.wolf.maid
 com.wxqhk.bagel
+com.xavelive
 com.xexalive.chat
 com.xv.hamet
 com.xv.joychat.india
@@ -505,6 +508,7 @@ mingle.android.mingle2
 mini.video.chat
 mirchi.livevideo.chat
 net.cata.ai.android
+net.jinnchat
 net.lovoo.android
 net.sipme.sip
 next.bondee.tech
