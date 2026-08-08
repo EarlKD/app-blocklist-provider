@@ -49,6 +49,7 @@ com.adbhut.aht
 com.ahchat.app
 com.air.talk.connect
 com.aisle.app
+com.amilive.app
 com.anonova.anonimchat
 com.anpro.yuuki
 com.antiland
@@ -85,6 +86,7 @@ com.bonhub.happy
 com.boochat.sefsf
 com.bopbop.tcblep
 com.bunchat.lite
+com.bunchat.pro
 com.byte.OmegalCam
 com.byte.strangerchat
 com.bytestudio.milo
@@ -130,6 +132,7 @@ com.colive.yaja
 com.comhub.onlinechat.android.video
 com.comlive
 com.comyaar.chat_app_2026
+com.connectme.strangerchat.app
 com.cookie.emerald
 com.coomeet.app
 com.cooperation.vchat
@@ -161,6 +164,7 @@ com.download.funny.online
 com.dozeonsl.doze
 com.driftingbottle.application
 com.duochat
+com.duolive.app
 com.echo.voice
 com.elive.joy.android
 com.eloelo
@@ -392,6 +396,7 @@ com.royalann.superbuzar
 com.rsin.strangerchat
 com.ryan.lovetalk
 com.saans.callquick
+com.sayhi.app
 com.sayhi.plugin.moxi
 com.scorp.who
 com.sdcmedia.swingers.g4
@@ -401,6 +406,7 @@ com.serendip.release
 com.sgiggle.production
 com.sgiggle.production.lite
 com.shujiu.Zaky
+com.sirragames.bhabi
 com.sjanmol.koshalisambalpuricalendar
 com.skout.android
 com.skylb.hola.app
