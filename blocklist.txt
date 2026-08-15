@@ -81,6 +81,7 @@ com.blom.lite
 com.bobo.happy
 com.boldd.bold
 com.bombang.terra
+com.bond.bonding
 com.bonhub.chathub
 com.bonhub.happy
 com.boochat.sefsf
@@ -285,6 +286,7 @@ com.live.streamer.online.app.video
 com.live.video.call.chat.girl.online
 com.live.videocall.talk.call
 com.live.videochat.india
+com.liveami.video.live.chat
 com.livechat.livetalk.livecall
 com.livechat.strangerschat
 com.livetalk.onlinevideocall.live.talk
@@ -382,6 +384,7 @@ com.project.dita
 com.pyaar.livevideo
 com.qhqc.starvoice
 com.quyue.ttchat
+com.rademade.kikihub
 com.radi.song
 com.random.chat.app
 com.random.chat.stranger
