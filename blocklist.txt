@@ -28,6 +28,7 @@ bhabhiji.talkmate.app
 biz.trans
 boudi.live.videocall
 camsurf.com
+camtalk.live.videocall
 cc.hitto.otzt.lite
 cc.hitto_otzt
 cc.suto.otzt
@@ -230,6 +231,7 @@ com.honeycam.pro
 com.hoogo.hoogo
 com.hotornot.app
 com.hotti.android
+com.howdyyam.chat
 com.hpcnt.vividi
 com.hub.desilive
 com.hub.desishow
