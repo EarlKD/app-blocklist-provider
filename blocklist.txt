@@ -256,6 +256,7 @@ com.jaumo.casual
 com.jaumo.lesbian
 com.jjjj.joyvid.app
 com.jjjj.joyvid.histranger
+com.jodigo.videocall
 com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
