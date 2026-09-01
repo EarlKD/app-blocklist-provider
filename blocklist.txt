@@ -25,6 +25,7 @@ app.ovo.kisseat
 app.to0kod
 app.yoro.yor
 bhabhiji.talkmate.app
+bhabhiwhisper.private.chat
 biz.trans
 boudi.live.videocall
 camsurf.com
