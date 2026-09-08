@@ -18,6 +18,7 @@ app.duoyo.duoyo
 app.duoyo.lite
 app.duoyo.masti
 app.hook.dating
+app.lemonchat.android
 app.localdating.hmu
 app.mirami.chat
 app.onldst
@@ -84,6 +85,7 @@ com.bobo.happy
 com.boldd.bold
 com.bombang.terra
 com.bond.bonding
+com.bonfire.dating
 com.bonhub.chathub
 com.bonhub.happy
 com.boochat.sefsf
