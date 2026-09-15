@@ -184,6 +184,7 @@ com.exutech.chacha
 com.fachat.freechat
 com.fast.parilive
 com.fchandilo.agnf
+com.ficalive
 com.fine202.xiaosu
 com.finlovelive.chat
 com.firststep.app
@@ -248,6 +249,7 @@ com.iblink.meet
 com.ig.chat.group
 com.ig.live.chat.call.app
 com.ihappydate
+com.in.only.chat.hub
 com.indidino.dating
 com.infilnt.glimr
 com.ingomeyin.luvchatpro
@@ -333,8 +335,10 @@ com.migo.mobile
 com.mikaapp.android
 com.miki.chat
 com.milapp.milapp
+com.milapp.milapplite
 com.milimili.mimilive
 com.milona.app_2025
+com.mingle.EuropianMingle
 com.mnanjwa.links.android
 com.mobile.android.eris
 com.moblie.hiichat
@@ -353,6 +357,7 @@ com.never.die
 com.newchat.chattygo
 com.newellmediallc.live.coco
 com.newellmediallc.live.hippo
+com.nexora.whispr
 com.nuvylive.chat
 com.ofotech.app
 com.oioilive
