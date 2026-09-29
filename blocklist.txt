@@ -262,6 +262,8 @@ com.jaumo.lesbian
 com.jjjj.joyvid.app
 com.jjjj.joyvid.histranger
 com.jodigo.videocall
+com.jogan.chat
+com.joganpro.app
 com.jolivehub.chat
 com.joy.litgo
 com.joymet.videocall
@@ -364,6 +366,7 @@ com.ofotech.app
 com.oioilive
 com.olamet.mobile
 com.olametlite.mobile
+com.omechat.lite
 com.omeglee
 com.one.goodnight
 com.one.goodnightrainbow
@@ -379,6 +382,8 @@ com.parau.pro.videochat
 com.parau.videochat
 com.peachlive.android
 com.peachu.chat
+com.peachu.lite
+com.peachu.pro
 com.peptech.peeper
 com.phollow.app
 com.phx.waha
