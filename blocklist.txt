@@ -223,6 +223,7 @@ com.hay.android
 com.heat.android
 com.helloji.chats_app_2026
 com.hi.chat.app
+com.hichat.videotalklive.makefriends
 com.hickeyapp.app.android
 com.hiiclub.live
 com.hily.app
