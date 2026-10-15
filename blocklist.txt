@@ -521,6 +521,7 @@ de.mobiletrend.lovidoo
 enterprises.dating.boo
 hookup.dating.kasual
 im.twogo.godroid
+in.desiavtar.twa
 io.chingari.app
 jcsla.randomtalk
 jola.pro.globaltalk
@@ -536,6 +537,7 @@ mingle.android.mingle
 mingle.android.mingle2
 mini.video.chat
 mirchi.livevideo.chat
+mobi.jackd.android
 net.cata.ai.android
 net.jinnchat
 net.lovoo.android
