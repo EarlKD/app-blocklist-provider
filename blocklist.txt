@@ -74,6 +74,7 @@ com.basbolo.pluto
 com.basoft.halo
 com.beianchuangde.haluGaGa
 com.bestsiv.xmiga
+com.bhabhijichat.talklive.makefriends
 com.bigboo.videochat
 com.bilalive.live.app
 com.bimilyoncu.sscoderr.oregltv
@@ -188,6 +189,7 @@ com.ficalive
 com.fine202.xiaosu
 com.finlovelive.chat
 com.firststep.app
+com.flavoapp.app
 com.flirtini
 com.forplay.app
 com.free.hookup.dating.apps.wild
