@@ -104,6 +104,7 @@ com.camsea.videochat
 com.camshare.camfrog.android
 com.chaloji.link
 com.chamiapp.chat
+com.chat.circbre.nela
 com.chat.joychat
 com.chat.live.gomeettoday
 com.chat.live.livcam
@@ -142,6 +143,7 @@ com.connectme.strangerchat.app
 com.cookie.emerald
 com.coomeet.app
 com.cooperation.vchat
+com.crave.app
 com.cremasocial.crema
 com.crroyq.kaya
 com.crroyq.papa
